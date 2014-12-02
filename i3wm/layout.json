@@ -1,0 +1,232 @@
+// vim:ts=4:sw=4:et
+{
+    // tabbed split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "tabbed",
+    "percent": 1,
+    "type": "con",
+    "nodes": [
+        {
+            // stacked split container with 1 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "stacked",
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+                {
+                    // splith split container with 2 children
+                    "border": "normal",
+                    "floating": "auto_off",
+                    "layout": "splith",
+                    "percent": 1,
+                    "type": "con",
+                    "nodes": [
+                        {
+                            // tabbed split container with 3 children
+                            "border": "normal",
+                            "floating": "auto_off",
+                            "layout": "tabbed",
+                            "percent": 0.5,
+                            "type": "con",
+                            "nodes": [
+                                {
+                                    "border": "normal",
+                                    "floating": "auto_off",
+                                    "geometry": {
+                                       "height": 475,
+                                       "width": 802,
+                                       "x": 0,
+                                       "y": 0
+                                    },
+                                    "name": "marc@apsl: ~",
+                                    "percent": 0.333333333333333,
+                                    "swallows": [
+                                       {
+                                       // "class": "^X\\-terminal\\-emulator$",
+                                       // "instance": "^x\\-terminal\\-emulator$",
+                                       // "title": "^marc\\@apsl\\:\\ \\~$"
+                                       }
+                                    ],
+                                    "type": "con"
+                                },
+                                {
+                                    "border": "normal",
+                                    "floating": "auto_off",
+                                    "geometry": {
+                                       "height": 475,
+                                       "width": 802,
+                                       "x": 0,
+                                       "y": 0
+                                    },
+                                    "name": "marc@apsl: ~",
+                                    "percent": 0.333333333333333,
+                                    "swallows": [
+                                       {
+                                       // "class": "^X\\-terminal\\-emulator$",
+                                       // "instance": "^x\\-terminal\\-emulator$",
+                                       // "title": "^marc\\@apsl\\:\\ \\~$"
+                                       }
+                                    ],
+                                    "type": "con"
+                                },
+                                {
+                                    "border": "normal",
+                                    "floating": "auto_off",
+                                    "geometry": {
+                                       "height": 475,
+                                       "width": 802,
+                                       "x": 0,
+                                       "y": 0
+                                    },
+                                    "name": "marc@apsl: ~",
+                                    "percent": 0.333333333333333,
+                                    "swallows": [
+                                       {
+                                       // "class": "^X\\-terminal\\-emulator$",
+                                       // "instance": "^x\\-terminal\\-emulator$",
+                                       // "title": "^marc\\@apsl\\:\\ \\~$"
+                                       }
+                                    ],
+                                    "type": "con"
+                                }
+                            ]
+                        },
+                        {
+                            // splith split container with 1 children
+                            "border": "normal",
+                            "floating": "auto_off",
+                            "layout": "splith",
+                            "percent": 0.5,
+                            "type": "con",
+                            "nodes": [
+                                {
+                                    // splitv split container with 2 children
+                                    "border": "normal",
+                                    "floating": "auto_off",
+                                    "layout": "splitv",
+                                    "percent": 1,
+                                    "type": "con",
+                                    "nodes": [
+                                        {
+                                            // splitv split container with 2 children
+                                            "border": "normal",
+                                            "floating": "auto_off",
+                                            "layout": "splitv",
+                                            "percent": 0.5,
+                                            "type": "con",
+                                            "nodes": [
+                                                {
+                                                    "border": "normal",
+                                                    "floating": "auto_off",
+                                                    "geometry": {
+                                                       "height": 475,
+                                                       "width": 802,
+                                                       "x": 0,
+                                                       "y": 0
+                                                    },
+                                                    "name": "marc@apsl: ~/fabfile",
+                                                    "percent": 0.5,
+                                                    "swallows": [
+                                                       {
+                                                       // "class": "^X\\-terminal\\-emulator$",
+                                                       // "instance": "^x\\-terminal\\-emulator$",
+                                                       // "title": "^marc\\@apsl\\:\\ \\~\\/fabfile$"
+                                                       }
+                                                    ],
+                                                    "type": "con"
+                                                },
+                                                {
+                                                    "border": "normal",
+                                                    "floating": "auto_off",
+                                                    "geometry": {
+                                                       "height": 475,
+                                                       "width": 802,
+                                                       "x": 0,
+                                                       "y": 0
+                                                    },
+                                                    "name": "marc@apsl: ~/workspace/toggl-redmine",
+                                                    "percent": 0.5,
+                                                    "swallows": [
+                                                       {
+                                                       // "class": "^X\\-terminal\\-emulator$",
+                                                       // "instance": "^x\\-terminal\\-emulator$",
+                                                       // "title": "^marc\\@apsl\\:\\ \\~\\/workspace\\/toggl\\-redmine$"
+                                                       }
+                                                    ],
+                                                    "type": "con"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            // splitv split container with 1 children
+                                            "border": "normal",
+                                            "floating": "auto_off",
+                                            "layout": "splitv",
+                                            "percent": 0.5,
+                                            "type": "con",
+                                            "nodes": [
+                                                {
+                                                    "border": "normal",
+                                                    "floating": "auto_off",
+                                                    "geometry": {
+                                                       "height": 475,
+                                                       "width": 802,
+                                                       "x": 0,
+                                                       "y": 0
+                                                    },
+                                                    "name": "htop",
+                                                    "percent": 1,
+                                                    "swallows": [
+                                                       {
+                                                       // "class": "^X\\-terminal\\-emulator$",
+                                                       // "instance": "^x\\-terminal\\-emulator$",
+                                                       // "title": "^htop$"
+                                                       }
+                                                    ],
+                                                    "type": "con"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            // splitv split container with 1 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splitv",
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 475,
+                       "width": 802,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "i3-save-tree --workspace=3 > workspace/dotfiles/i3wm/layout.json",
+                    "percent": 1,
+                    "swallows": [
+                       {
+                       // "class": "^X\\-terminal\\-emulator$",
+                       // "instance": "^x\\-terminal\\-emulator$",
+                       // "title": "^i3\\-save\\-tree\\ \\-\\-workspace\\=3\\ \\>\\ workspace\\/dotfiles\\/i3wm\\/layout\\.json$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
