@@ -1,0 +1,125 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="955" y="236" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="738" y="190" />
+    <location key="WELCOME_SCREEN.1920.0.1920.1080" x="2880" y="530" />
+    <location key="FileChooserDialogImpl.1920.0.1920.1080" x="2633" y="57" />
+    <location key="OptionsEditor.1920.0.1920.1080" x="2257" y="21" />
+    <location key="#com.intellij.ide.util.MemberChooser.1920.0.1920.1080" x="2537" y="48" />
+    <location key="findTextDialog.1920.0.1920.1080" x="2660" y="219" />
+    <location key="ProcessPopupWindow.1920.0.1920.1080" x="3355" y="915" />
+    <location key="#server.1920.0.1920.1080" x="2541" y="122" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.1920.0.1920.1080" x="836" y="-4" />
+    <location key="com.intellij.history.integration.ui.views.FileHistoryDialog.1920.0.1920.1080" x="1920" y="24" />
+    <location key="Github.CreateGistDialog.1920.0.1920.1080" x="2688" y="425" />
+    <location key="com.intellij.ide.passwordSafe.impl.providers.masterKey.ResetPasswordDialog.1920.0.1920.1080" x="2672" y="454" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1920.0.1920.1080" x="2635" y="420" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.1920.0.1920.1080" x="2558" y="285" />
+    <location key="DiffWindow.1920.0.1920.1080" x="1918" y="-18" />
+    <location key="EditParametersPopupWindow.1920.0.1920.1080" x="2604" y="350" />
+    <location key="export.test.results.1920.0.1920.1080" x="2641" y="294" />
+    <location key="MultipleFileMergeDialog.1920.0.1920.1080" x="2567" y="247" />
+    <location key="com.intellij.execution.impl.RunConfigurationBeforeRunProvider.dimensionServiceKey;.1920.0.1920.1080" x="2760" y="195" />
+    <location key="#Updates.1920.0.1920.1080" x="2447" y="375" />
+    <size key="FileChooserDialogImpl.0.0.1920.1080" width="426" height="495" />
+    <size key="FileChooserDialogImpl.1920.0.1920.1080" width="426" height="495" />
+    <size key="OptionsEditor.1920.0.1920.1080" width="1226" height="863" />
+    <size key="#com.intellij.ide.util.MemberChooser.1920.0.1920.1080" width="376" height="574" />
+    <size key="GridCell.Tab.0.left.1920.0.1920.1080" width="1870" height="239" />
+    <size key="GridCell.Tab.0.center.1920.0.1920.1080" width="1870" height="239" />
+    <size key="GridCell.Tab.0.right.1920.0.1920.1080" width="1870" height="239" />
+    <size key="GridCell.Tab.0.bottom.1920.0.1920.1080" width="1870" height="239" />
+    <size key="GridCell.Tab.1.left.1920.0.1920.1080" width="1870" height="239" />
+    <size key="GridCell.Tab.1.center.1920.0.1920.1080" width="1870" height="239" />
+    <size key="GridCell.Tab.1.right.1920.0.1920.1080" width="1870" height="239" />
+    <size key="GridCell.Tab.1.bottom.1920.0.1920.1080" width="1870" height="239" />
+    <size key="findTextDialog.1920.0.1920.1080" width="422" height="533" />
+    <size key="ProcessPopupWindow.1920.0.1920.1080" width="187" height="117" />
+    <size key="#server.1920.0.1920.1080" width="677" height="834" />
+    <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.1920.0.1920.1080" width="1920" height="1037" />
+    <size key="Github.CreateGistDialog.1920.0.1920.1080" width="375" height="228" />
+    <size key="com.intellij.ide.passwordSafe.impl.providers.masterKey.ResetPasswordDialog.1920.0.1920.1080" width="467" height="153" />
+    <size key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1920.0.1920.1080" width="482" height="239" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.1920.0.1920.1080" width="629" height="408" />
+    <size key="DiffWindow.1920.0.1920.1080" width="1920" height="1061" />
+    <size key="EditParametersPopupWindow.1920.0.1920.1080" width="480" height="268" />
+    <size key="export.test.results.1920.0.1920.1080" width="460" height="355" />
+    <size key="MultipleFileMergeDialog.1920.0.1920.1080" width="615" height="521" />
+    <size key="GridCell.Tab.0.left.0.0.0.0" width="1870" height="272" />
+    <size key="GridCell.Tab.0.center.0.0.0.0" width="1870" height="272" />
+    <size key="GridCell.Tab.0.right.0.0.0.0" width="1870" height="272" />
+    <size key="GridCell.Tab.0.bottom.0.0.0.0" width="1870" height="272" />
+    <size key="GridCell.Tab.1.left.0.0.0.0" width="1870" height="272" />
+    <size key="GridCell.Tab.1.center.0.0.0.0" width="1870" height="272" />
+    <size key="GridCell.Tab.1.right.0.0.0.0" width="1870" height="272" />
+    <size key="GridCell.Tab.1.bottom.0.0.0.0" width="1870" height="272" />
+    <size key="com.intellij.execution.impl.RunConfigurationBeforeRunProvider.dimensionServiceKey;.1920.0.1920.1080" width="189" height="264" />
+    <size key="javadoc.popup.1920.0.1920.1080" width="502" height="128" />
+    <size key="#Updates.1920.0.1920.1080" width="845" height="219" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog" state="0" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.0" state="300" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.1" state="500" />
+    <extendedState key="DiffWindow" state="0" />
+  </component>
+  <component name="LafManager">
+    <laf class-name="idea.dark.laf.classname" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="log.debug.categories" value="" />
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="DefaultHtmlDoctype.Refreshed" value="1" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="installation.uid" value="02bdfa83-0f2f-4ec0-84e3-334be43f3288" />
+    <property name="PyCharm.initialConfigurationShown" value="true" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/virtualenvs/gestorjs/bin/python&#10;/home/marc/workspace/django-rest-auth&#10;/home/marc/workspace/logitravel/circuitos&#10;/home/marc/workspace/underbike/underbikefront&#10;/home/marc/workspace/logitravel/gestorjs&#10;/home/marc/workspace/underbike/underbike&#10;/home/marc/workspace/underbike/underbike/src/main/settings/test.py&#10;/home/marc/workspace/underbike/underbike/src/main/settings/base.py&#10;/home/marc/workspace/underbike/underbike/src/main/settings_test.py&#10;/home/marc/workspace/underbike/underbike/src/api&#10;/home/marc/workspace/underbike/underbike/src/main/test2_settings.py&#10;/home/marc/virtualenvs/comunicados/bin/python&#10;/home/marc/workspace/logitravel/comunicados&#10;/home/marc/virtualenvs/syntaxforscience/bin/python&#10;/home/marc/workspace/syntaxforscience/src/main/settings.py&#10;/home/marc&#10;/home/marc/workspace/logitravel/logiback_server&#10;/home/marc/workspace/logitravel/logiback_front/app/scripts/auth/services.js&#10;/home/marc/workspace/underbike/underbike_old/underbike/sapns/model/underbike.py&#10;/home/marc/workspace/mola/beezer-django&#10;/home/marc/workspace/syntaxforscience&#10;/home/marc/virtualenvs/agregadores/bin/python&#10;/home/marc/workspace/iberaudit&#10;/home/marc/virtualenvs/maquetador/bin/python&#10;/home/marc/workspace/logitravel/maquetador&#10;/home/marc/workspace/logitravel/agregadores&#10;/home/marc/virtualenvs/underbike/bin/python" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
+    <property name="file.colors.enable.non.project" value="Yellow" />
+    <property name="Non-Project Files" value="Yellow" />
+    <property name="FindSplitterProportion" value="0.25" />
+    <property name="ColorChooser.RecentColors" value="9-85-23-255,,,4-55-0-255,,,5-85-5-255,,,29-85-10-255,,,19-85-24-255,,,0-59-85-255,,,78-84-85-255,,,41-44-55-255,,,30-204-87-255,,,93-142-72-255" />
+    <property name="OpenOrAttachDialog.OpenMode" value="new" />
+    <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
+    <property name="KEYMAP" value="comment&#10;undo&#10;select al&#10;paste&#10;copy" />
+    <property name="MemberChooser.sorted" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="ExpandEnvironmentPanel" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="RunConfigurable.dividerProportion" value="0.3" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="LayoutCode.optimizeImports" value="true" />
+    <property name="LayoutCode.processChangedText" value="false" />
+    <property name="RESTClient.httpMethod" value="GET&#10;POST&#10;PUT&#10;PATCH&#10;DELETE&#10;HEAD&#10;OPTIONS" />
+    <property name="Vcs.Log.Text.Filter.History" value="autocomplete&#10;main.css" />
+    <property name="sm_test_statistics_table_columnsWidth0" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder0" value="0" />
+    <property name="sm_test_statistics_table_columnsWidth1" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder1" value="1" />
+    <property name="sm_test_statistics_table_columnsWidth2" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder2" value="2" />
+    <property name="PythonUnitTestRunner.Splitter.Proportion" value="0.43238822" />
+    <property name="PythonUnitTestRunnerSupport.sortTestsAlphabetically" value="true" />
+    <property name="PythonUnitTestRunnerSupport.hidePassedTests" value="false" />
+    <property name="PACKAGE_FILTER" value="" />
+    <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.2" />
+    <property name="JSHintOptionsTreeView.MAIN_DIVIDER_PROPORTION" value="0.7" />
+    <property name="JSHintOptionsTreeView.RIGHT_DIVIDER_PROPORTION" value="0.7" />
+    <property name="JSHintOptionsTreeView.TREE_SCROLL_BAR_HORIZONTAL" value="20.0" />
+    <property name="JSHintOptionsTreeView.TREE_SCROLL_BAR_VERTICAL" value="0.0" />
+    <property name="JSHintOptionsTreeView.TREE_SELECTED_NODE_ID" value="1.0" />
+    <property name="javascript.grunt_toolwindow_splitter" value="0.2" />
+    <property name="evlsprt3.PY-139.556" value="15" />
+    <property name="evlsprt.PY-139.556" value="14a7e873d80" />
+    <property name="evlsprt2.PY-139.556" value="14a3e183705" />
+    <property name="PyCharm.NoScratch" value="true" />
+    <property name="evlsprt3.PY-139.742" value="10" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="0" />
+  </component>
+</application>

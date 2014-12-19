@@ -1,0 +1,146 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="vcs">
+      <project id="circuitos" values="hg4idea" />
+      <project id="django-rest-auth" values="Git" />
+      <project id="logiback_server" values="hg4idea" />
+      <project id="agregadores" values="hg4idea" />
+      <project id="gestorjs" values="hg4idea" />
+      <project id="comunicados" values="hg4idea" />
+      <project id="maquetador" values="hg4idea" />
+      <project id="underbikefront" values="hg4idea" />
+      <project id="beezer-django" values="Git" />
+      <project id="underbike" values="hg4idea" />
+      <project id="iberaudit" values="hg4idea" />
+    </group>
+    <group name="frameworks">
+      <project id="circuitos" values="django" />
+      <project id="agregadores" values="django" />
+      <project id="gestorjs" values="django" />
+      <project id="comunicados" values="django" />
+      <project id="maquetador" values="django" />
+      <project id="syntaxforscience" values="django" />
+      <project id="underbike" values="django" />
+      <project id="iberaudit" values="django" />
+    </group>
+    <group name="VCS Log">
+      <project id="maquetador" values="vcs.log.commit.count=18,vcs.log.hg4idea.root.count" />
+      <project id="underbikefront" values="vcs.log.hg4idea.root.count,vcs.log.commit.count=64" />
+      <project id="underbike" values="vcs.log.hg4idea.root.count,vcs.log.commit.count=21" />
+    </group>
+    <group name="py-packages">
+      <project id="django-rest-auth" values="six,Django,djangorestframework" />
+      <project id="logiback_server" values="psycopg2,args,django-allauth,raven,djangorestframework,requests-oauthlib,python3-openid,django-extensions,oauthlib,django-configurations,defusedxml,django-cors-headers,requests,Django,clint,six" />
+      <project id="agregadores" values="django-autocomplete-light,django-configurations,django-braces,clint,psycopg2,django-crispy-forms,django-appconf,Pillow,raven,Impostor,django-parsley,South,django-tables2,six,django-filter,Django,django-yubin,ipython,args,redis,wsgiref,argparse,configparser,django-extensions,django-registration,django-redis,django-colorful" />
+      <project id="comunicados" values="django-extensions,django-tables2,six,ipython,django-appconf,psycopg2,django-configurations,django-markup,django-filter,wsgiref,raven,argparse,args,django-redis,configparser,django-crispy-forms,django-widget-tweaks,easy-thumbnails,Pillow,docutils,South,redis,clint,djangorestframework,django-braces,Django,django-mptt" />
+      <project id="maquetador" values="ipython,six,django-redis,redis,raven,django-tables2,Django,django-appconf,configparser,django-yubin,args,Pillow,South,django-mptt,clint,django-braces,django-crispy-forms,django-configurations,wsgiref,psycopg2,django-extensions" />
+      <project id="syntaxforscience" values="requests,raven,redis,wsgiref,South,django-extensions,configparser,django-configurations,django-redis,psycopg2,argparse,six,args,ipython,django-braces,Django,django-appconf,clint" />
+      <project id="underbike" values="redis,clint,djangorestframework,ipython,six,mock,requests-oauthlib,python-dateutil,django-constance,requests,python3-openid,django-grappelli,django-filter,oauthlib,Pillow,django-suit,psycopg2,django-configurations,django-allauth,args,django-cors-headers,django-mptt,raven,django-appconf,django-rest-swagger,django-extensions,pyzmail,defusedxml,django-activity-stream,isoweek,Django" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="circuitos" values="Python.DjangoServer" />
+      <project id="agregadores" values="Python.DjangoServer,JavascriptDebugType" />
+      <project id="gestorjs" values="Python.DjangoServer" />
+      <project id="comunicados" values="Python.DjangoServer" />
+      <project id="maquetador" values="Python.DjangoServer" />
+      <project id="underbikefront" values="PythonConfigurationType,JavascriptDebugType" />
+      <project id="syntaxforscience" values="Python.DjangoServer" />
+      <project id="underbike" values="DjangoTestsConfigurationType,Python.DjangoServer" />
+      <project id="iberaudit" values="Python.DjangoServer" />
+    </group>
+    <group name="module type">
+      <project id="circuitos" values="PYTHON_MODULE" />
+      <project id="django-rest-auth" values="PYTHON_MODULE" />
+      <project id="logiback_server" values="PYTHON_MODULE" />
+      <project id="agregadores" values="PYTHON_MODULE" />
+      <project id="gestorjs" values="PYTHON_MODULE" />
+      <project id="comunicados" values="PYTHON_MODULE" />
+      <project id="maquetador" values="PYTHON_MODULE" />
+      <project id="underbikefront" values="PYTHON_MODULE" />
+      <project id="syntaxforscience" values="PYTHON_MODULE" />
+      <project id="beezer-django" values="PYTHON_MODULE" />
+      <project id="underbike" values="PYTHON_MODULE" />
+      <project id="iberaudit" values="PYTHON_MODULE" />
+    </group>
+    <group name="file-type">
+      <project id="circuitos" values="XML,CSS,Ini,LESS,Images,HTML,UNKNOWN,SCSS,JavaScript,Python,JSON,SourceMap,PLAIN_TEXT" />
+      <project id="django-rest-auth" values="HTML,YAML,PLAIN_TEXT,XML,Python,UNKNOWN,ReST" />
+      <project id="logiback_server" values="Python,UNKNOWN,PLAIN_TEXT,XML" />
+      <project id="agregadores" values="YAML,UNKNOWN,Ini,Images,CSS,HTML,JSON,JavaScript,Python,XML,PLAIN_TEXT,Native,SourceMap" />
+      <project id="gestorjs" values="JavaScript,Python,XML,Images,UNKNOWN,SourceMap,LESS,YAML,HTML,Ini,CSS,PLAIN_TEXT" />
+      <project id="comunicados" values="PLAIN_TEXT,ReST,Images,Python,HTML,Ini,XML,Native,CSS,Locale,JSON,UNKNOWN,JavaScript" />
+      <project id="maquetador" values="SourceMap,PLAIN_TEXT,YAML,UNKNOWN,JavaScript,HTML,XML,Ini,Python,Images,CSS" />
+      <project id="underbikefront" values="Jinja2,JavaScript,PATCH,JSON,JSCS,C++,YAML,SCSS,JSHint,HTML,XML,CSS,ESLint,CoffeeScript,SourceMap,Ini,ActionScript,TypeScript,Perl,PLAIN_TEXT,ARCHIVE,Images,Python,DTD,LESS,UNKNOWN" />
+      <project id="syntaxforscience" values="UNKNOWN,Python,PLAIN_TEXT,JavaScript,Ini,XML,YAML,HTML" />
+      <project id="beezer-django" values="Python,ReST,UNKNOWN,Locale,CoffeeScript,JavaScript,Ini,PLAIN_TEXT,Images,CSS,XML,HTML,JSON" />
+      <project id="underbike" values="XML,PLAIN_TEXT,Ini,UNKNOWN,Python" />
+      <project id="iberaudit" values="CSS,Python,HTML,ARCHIVE,ReST,YAML,XML,JSON,Ini,PLAIN_TEXT,Native,UNKNOWN,JavaScript,Images,LESS" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="agregadores" values="PythonConfigurationType" />
+      <project id="underbike" values="DjangoTestsConfigurationType,PythonConfigurationType" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="circuitos" values="Project,Project" />
+      <project id="django-rest-auth" values="Project,Project" />
+      <project id="logiback_server" values="Project,Project" />
+      <project id="agregadores" values="Project,Project" />
+      <project id="gestorjs" values="Project,Project" />
+      <project id="comunicados" values="Project,Project" />
+      <project id="maquetador" values="Project,Project" />
+      <project id="underbikefront" values="Project,Project" />
+      <project id="syntaxforscience" values="Project,Project" />
+      <project id="beezer-django" values="Project,Project" />
+      <project id="underbike" values="Project,Project" />
+      <project id="iberaudit" values="Project,Project" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="circuitos" values="DEFAULT" />
+      <project id="django-rest-auth" values="DEFAULT" />
+      <project id="logiback_server" values="DEFAULT" />
+      <project id="agregadores" values="DEFAULT" />
+      <project id="gestorjs" values="DEFAULT" />
+      <project id="comunicados" values="DEFAULT" />
+      <project id="maquetador" values="DEFAULT" />
+      <project id="underbikefront" values="DEFAULT" />
+      <project id="syntaxforscience" values="DEFAULT" />
+      <project id="beezer-django" values="DEFAULT" />
+      <project id="underbike" values="DEFAULT" />
+      <project id="iberaudit" values="DEFAULT" />
+    </group>
+    <group name="py-interpreter">
+      <project id="django-rest-auth" values="Python 3.4.1" />
+      <project id="logiback_server" values="Python 3.4.1" />
+      <project id="agregadores" values="Python 2.7.6" />
+      <project id="comunicados" values="Python 2.7.6" />
+      <project id="maquetador" values="Python 2.7.6" />
+      <project id="underbikefront" values="Python 3.4.1" />
+      <project id="syntaxforscience" values="Python 2.7.6" />
+      <project id="underbike" values="Python 3.4.1" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="5" />
+      <entry feature="execute.DjangoTestsConfigurationType.Coverage" count="101" />
+      <entry feature="execute.DjangoTestsConfigurationType.Debug" count="12" />
+      <entry feature="execute.DjangoTestsConfigurationType.Run" count="305" />
+      <entry feature="execute.JavascriptDebugType.Run" count="1" />
+      <entry feature="execute.Python.DjangoServer.Coverage" count="2" />
+      <entry feature="execute.Python.DjangoServer.Debug" count="136" />
+      <entry feature="execute.Python.DjangoServer.Run" count="37" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="1" />
+      <entry feature="ide.settings.Coverage" count="1" />
+      <entry feature="ide.settings.Django" count="2" />
+      <entry feature="ide.settings.Font" count="1" />
+      <entry feature="ide.settings.General" count="10" />
+      <entry feature="ide.settings.Keymap" count="21" />
+      <entry feature="ide.settings.Live_Templates" count="10" />
+      <entry feature="ide.settings.Project_Interpreter" count="6" />
+      <entry feature="ideaapp.started" count="27" />
+      <entry feature="tips.of.the.day.next" count="1" />
+      <entry feature="uml.ShowDiagram.DjangoModelDependency" count="1" />
+      <entry feature="uml.ShowDiagram.DjangoModelDependency.popup" count="4" />
+    </counts>
+  </component>
+</application>

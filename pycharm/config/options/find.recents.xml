@@ -1,0 +1,36 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>base_field</find>
+      <find>print</find>
+      <find>aining_stres</find>
+      <find>context</find>
+      <find>TrainingSer</find>
+      <find>sid</find>
+      <find>ee</find>
+      <find>proposa</find>
+      <find>StringIO</find>
+      <find>http</find>
+      <find>email</find>
+      <find>admin</find>
+      <find>suit</find>
+      <find>cors</find>
+      <find>destr</find>
+      <find>avatar</find>
+      <find>bulk_cre</find>
+      <find>bulk_create</find>
+      <find>validate_activity_athlete</find>
+      <find>ACCOUNT_FORMS</find>
+      <find>USERNAME_RE</find>
+      <find>REST_AUTH_SERIALIZERS</find>
+      <find>app_settings</find>
+      <find>SocialLoginSerializer</find>
+      <find>delete</find>
+      <find>UserPublicSerializer</find>
+      <find>initial_data</find>
+      <find>data</find>
+      <find>self.data</find>
+      <find>username</find>
+    </findStrings>
+  </component>
+</application>

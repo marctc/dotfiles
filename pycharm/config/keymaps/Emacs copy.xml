@@ -1,0 +1,76 @@
+<keymap version="1" name="Emacs copy" parent="Emacs">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="control INSERT" />
+    <keyboard-shortcut first-keystroke="alt C" />
+    <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="W" />
+    <keyboard-shortcut first-keystroke="control C" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="alt P" />
+    <keyboard-shortcut first-keystroke="shift INSERT" />
+    <keyboard-shortcut first-keystroke="control Y" />
+    <keyboard-shortcut first-keystroke="control V" />
+  </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="H" />
+    <keyboard-shortcut first-keystroke="control A" second-keystroke="H" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="shift control MINUS" />
+    <keyboard-shortcut first-keystroke="control SLASH" />
+    <keyboard-shortcut first-keystroke="control Z" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="alt SEMICOLON" />
+    <keyboard-shortcut first-keystroke="control RIGHT" />
+  </action>
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="control C" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="control V" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="control Z" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="HOME" />
+    <keyboard-shortcut first-keystroke="alt M" />
+  </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt F" />
+    <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="control F" />
+  </action>
+  <action id="EditorPageDown">
+    <keyboard-shortcut first-keystroke="PAGE_DOWN" />
+  </action>
+  <action id="EditorPageUp">
+    <keyboard-shortcut first-keystroke="PAGE_UP" />
+    <keyboard-shortcut first-keystroke="alt V" />
+  </action>
+  <action id="EditorScrollToCenter" />
+  <action id="EditorSplitLine" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift control alt N" />
+    <keyboard-shortcut first-keystroke="control O" />
+  </action>
+  <action id="OverrideMethods">
+    <keyboard-shortcut first-keystroke="control M" />
+  </action>
+  <action id="ScrollTreeToCenter" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+</keymap>

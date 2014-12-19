@@ -1,0 +1,51 @@
+<templateSet group="Python">
+  <template name="class" value="class $class$($object$):&#10;    &quot;&quot;&quot;$cls_doc$&quot;&quot;&quot;&#10;    &#10;    def __init__(self, $args$):&#10;        $END$" description="New Class" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cls_doc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="model" value="class $class$(models.Model):&#10;    &#10;    def __unicode__(self):&#10;        pass&#10;    " description="Django Model" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="cf" value="$field$ = models.CharField(max_length=$max$)" description="CharField" toReformat="false" toShortenFQNames="true">
+    <variable name="field" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="max" expression="" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ff" value="$field$ = models.FloatField()" description="FloatField" toReformat="false" toShortenFQNames="true">
+    <variable name="field" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="integerfield" value="$field$ = models.IntegerField()" description="IntegerField" toReformat="false" toShortenFQNames="true">
+    <variable name="field" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="created_at" value="created_at = models.DateTimeField(auto_now_add=True)" description="created_at" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="fk" value="$field$ = models.ForeignKey($model$)" description="ForeignKey" toReformat="false" toShortenFQNames="true">
+    <variable name="field" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="__str" value="def __str__(self):&#10;    return self.name&#10;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
