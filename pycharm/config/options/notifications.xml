@@ -1,10 +1,5 @@
 <application>
   <component name="NotificationConfiguration">
     <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
-    <toolWindow group="Find in Path" />
-    <toolWindow group="Vcs Messages" />
-    <toolWindow group="Debugger messages" />
-    <toolWindow group="Web Deployment: Remote Host" />
-    <toolWindow group="Grunt Console" />
   </component>
 </application>

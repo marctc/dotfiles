@@ -1,0 +1,10 @@
+<application>
+  <component name="dataSourceStorageLocal">
+    <data-source name="canape" uuid="75812374-e5e4-4d33-b7e6-a6c7ad192426">
+      <secret-storage>master_key</secret-storage>
+      <user-name>apsl</user-name>
+      <schema-pattern>hipotelsdb.pg_catalog hipotelsdb.public</schema-pattern>
+      <default-schemas>hipotelsdb.pg_catalog hipotelsdb.public</default-schemas>
+    </data-source>
+  </component>
+</application>

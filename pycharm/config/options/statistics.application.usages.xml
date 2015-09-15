@@ -1,143 +1,293 @@
 <application>
   <component name="StatisticsApplicationUsages">
-    <group name="vcs">
-      <project id="circuitos" values="hg4idea" />
-      <project id="django-rest-auth" values="Git" />
-      <project id="logiback_server" values="hg4idea" />
-      <project id="agregadores" values="hg4idea" />
-      <project id="gestorjs" values="hg4idea" />
-      <project id="comunicados" values="hg4idea" />
-      <project id="maquetador" values="hg4idea" />
-      <project id="underbikefront" values="hg4idea" />
-      <project id="beezer-django" values="Git" />
-      <project id="underbike" values="hg4idea" />
-      <project id="iberaudit" values="hg4idea" />
-    </group>
-    <group name="frameworks">
-      <project id="circuitos" values="django" />
-      <project id="agregadores" values="django" />
-      <project id="gestorjs" values="django" />
-      <project id="comunicados" values="django" />
-      <project id="maquetador" values="django" />
-      <project id="syntaxforscience" values="django" />
-      <project id="underbike" values="django" />
-      <project id="iberaudit" values="django" />
-    </group>
-    <group name="VCS Log">
-      <project id="maquetador" values="vcs.log.commit.count=18,vcs.log.hg4idea.root.count" />
-      <project id="underbikefront" values="vcs.log.hg4idea.root.count,vcs.log.commit.count=64" />
-      <project id="underbike" values="vcs.log.hg4idea.root.count,vcs.log.commit.count=21" />
-    </group>
-    <group name="py-packages">
-      <project id="django-rest-auth" values="six,Django,djangorestframework" />
-      <project id="logiback_server" values="psycopg2,args,django-allauth,raven,djangorestframework,requests-oauthlib,python3-openid,django-extensions,oauthlib,django-configurations,defusedxml,django-cors-headers,requests,Django,clint,six" />
-      <project id="agregadores" values="django-autocomplete-light,django-configurations,django-braces,clint,psycopg2,django-crispy-forms,django-appconf,Pillow,raven,Impostor,django-parsley,South,django-tables2,six,django-filter,Django,django-yubin,ipython,args,redis,wsgiref,argparse,configparser,django-extensions,django-registration,django-redis,django-colorful" />
-      <project id="comunicados" values="django-extensions,django-tables2,six,ipython,django-appconf,psycopg2,django-configurations,django-markup,django-filter,wsgiref,raven,argparse,args,django-redis,configparser,django-crispy-forms,django-widget-tweaks,easy-thumbnails,Pillow,docutils,South,redis,clint,djangorestframework,django-braces,Django,django-mptt" />
-      <project id="maquetador" values="ipython,six,django-redis,redis,raven,django-tables2,Django,django-appconf,configparser,django-yubin,args,Pillow,South,django-mptt,clint,django-braces,django-crispy-forms,django-configurations,wsgiref,psycopg2,django-extensions" />
-      <project id="syntaxforscience" values="requests,raven,redis,wsgiref,South,django-extensions,configparser,django-configurations,django-redis,psycopg2,argparse,six,args,ipython,django-braces,Django,django-appconf,clint" />
-      <project id="underbike" values="redis,clint,djangorestframework,ipython,six,mock,requests-oauthlib,python-dateutil,django-constance,requests,python3-openid,django-grappelli,django-filter,oauthlib,Pillow,django-suit,psycopg2,django-configurations,django-allauth,args,django-cors-headers,django-mptt,raven,django-appconf,django-rest-swagger,django-extensions,pyzmail,defusedxml,django-activity-stream,isoweek,Django" />
-    </group>
-    <group name="run-configuration-type">
-      <project id="circuitos" values="Python.DjangoServer" />
-      <project id="agregadores" values="Python.DjangoServer,JavascriptDebugType" />
-      <project id="gestorjs" values="Python.DjangoServer" />
-      <project id="comunicados" values="Python.DjangoServer" />
-      <project id="maquetador" values="Python.DjangoServer" />
-      <project id="underbikefront" values="PythonConfigurationType,JavascriptDebugType" />
-      <project id="syntaxforscience" values="Python.DjangoServer" />
-      <project id="underbike" values="DjangoTestsConfigurationType,Python.DjangoServer" />
-      <project id="iberaudit" values="Python.DjangoServer" />
-    </group>
-    <group name="module type">
-      <project id="circuitos" values="PYTHON_MODULE" />
-      <project id="django-rest-auth" values="PYTHON_MODULE" />
-      <project id="logiback_server" values="PYTHON_MODULE" />
-      <project id="agregadores" values="PYTHON_MODULE" />
-      <project id="gestorjs" values="PYTHON_MODULE" />
-      <project id="comunicados" values="PYTHON_MODULE" />
-      <project id="maquetador" values="PYTHON_MODULE" />
-      <project id="underbikefront" values="PYTHON_MODULE" />
-      <project id="syntaxforscience" values="PYTHON_MODULE" />
-      <project id="beezer-django" values="PYTHON_MODULE" />
-      <project id="underbike" values="PYTHON_MODULE" />
-      <project id="iberaudit" values="PYTHON_MODULE" />
-    </group>
-    <group name="file-type">
-      <project id="circuitos" values="XML,CSS,Ini,LESS,Images,HTML,UNKNOWN,SCSS,JavaScript,Python,JSON,SourceMap,PLAIN_TEXT" />
-      <project id="django-rest-auth" values="HTML,YAML,PLAIN_TEXT,XML,Python,UNKNOWN,ReST" />
-      <project id="logiback_server" values="Python,UNKNOWN,PLAIN_TEXT,XML" />
-      <project id="agregadores" values="YAML,UNKNOWN,Ini,Images,CSS,HTML,JSON,JavaScript,Python,XML,PLAIN_TEXT,Native,SourceMap" />
-      <project id="gestorjs" values="JavaScript,Python,XML,Images,UNKNOWN,SourceMap,LESS,YAML,HTML,Ini,CSS,PLAIN_TEXT" />
-      <project id="comunicados" values="PLAIN_TEXT,ReST,Images,Python,HTML,Ini,XML,Native,CSS,Locale,JSON,UNKNOWN,JavaScript" />
-      <project id="maquetador" values="SourceMap,PLAIN_TEXT,YAML,UNKNOWN,JavaScript,HTML,XML,Ini,Python,Images,CSS" />
-      <project id="underbikefront" values="Jinja2,JavaScript,PATCH,JSON,JSCS,C++,YAML,SCSS,JSHint,HTML,XML,CSS,ESLint,CoffeeScript,SourceMap,Ini,ActionScript,TypeScript,Perl,PLAIN_TEXT,ARCHIVE,Images,Python,DTD,LESS,UNKNOWN" />
-      <project id="syntaxforscience" values="UNKNOWN,Python,PLAIN_TEXT,JavaScript,Ini,XML,YAML,HTML" />
-      <project id="beezer-django" values="Python,ReST,UNKNOWN,Locale,CoffeeScript,JavaScript,Ini,PLAIN_TEXT,Images,CSS,XML,HTML,JSON" />
-      <project id="underbike" values="XML,PLAIN_TEXT,Ini,UNKNOWN,Python" />
-      <project id="iberaudit" values="CSS,Python,HTML,ARCHIVE,ReST,YAML,XML,JSON,Ini,PLAIN_TEXT,Native,UNKNOWN,JavaScript,Images,LESS" />
-    </group>
-    <group name="run-configuration-type-temp">
-      <project id="agregadores" values="PythonConfigurationType" />
-      <project id="underbike" values="DjangoTestsConfigurationType,PythonConfigurationType" />
-    </group>
-    <group name="javaScript Scope Usages">
-      <project id="circuitos" values="Project,Project" />
-      <project id="django-rest-auth" values="Project,Project" />
-      <project id="logiback_server" values="Project,Project" />
-      <project id="agregadores" values="Project,Project" />
-      <project id="gestorjs" values="Project,Project" />
-      <project id="comunicados" values="Project,Project" />
-      <project id="maquetador" values="Project,Project" />
-      <project id="underbikefront" values="Project,Project" />
-      <project id="syntaxforscience" values="Project,Project" />
-      <project id="beezer-django" values="Project,Project" />
-      <project id="underbike" values="Project,Project" />
-      <project id="iberaudit" values="Project,Project" />
+    <group name="JSDebugConfig">
+      <project id="agregadores" values="browser-Chrome.preferredEngine-null.no_mappings" collectionTime="1431592419579" />
     </group>
     <group name="JavaScript versions">
-      <project id="circuitos" values="DEFAULT" />
-      <project id="django-rest-auth" values="DEFAULT" />
-      <project id="logiback_server" values="DEFAULT" />
-      <project id="agregadores" values="DEFAULT" />
-      <project id="gestorjs" values="DEFAULT" />
-      <project id="comunicados" values="DEFAULT" />
-      <project id="maquetador" values="DEFAULT" />
-      <project id="underbikefront" values="DEFAULT" />
-      <project id="syntaxforscience" values="DEFAULT" />
-      <project id="beezer-django" values="DEFAULT" />
-      <project id="underbike" values="DEFAULT" />
-      <project id="iberaudit" values="DEFAULT" />
+      <project id="python-fitparse" values="DEFAULT" collectionTime="0" />
+      <project id="underbikefront" values="DEFAULT" collectionTime="0" />
+      <project id="gpxpy" values="DEFAULT" collectionTime="0" />
+      <project id="hipotels" values="DEFAULT" collectionTime="1438183825230" />
+      <project id="syntaxforscience" values="DEFAULT" collectionTime="1431091815523" />
+      <project id="agregadores" values="DEFAULT" collectionTime="1431592418870" />
+      <project id="wagtaildemo" values="DEFAULT" collectionTime="1434461677196" />
+      <project id="circuitos" values="DEFAULT" collectionTime="1431529642683" />
+      <project id="django-extensions" values="DEFAULT" collectionTime="1434458811210" />
+      <project id="testerxml" values="DEFAULT" collectionTime="1435919539632" />
+      <project id="gestorjs" values="DEFAULT" collectionTime="1432278957607" />
+      <project id="iberaudit" values="DEFAULT" collectionTime="0" />
+      <project id="aploy" values="DEFAULT" collectionTime="1434005649301" />
+      <project id="underbike_old" values="DEFAULT" collectionTime="0" />
+      <project id="regalo" values="DEFAULT" collectionTime="1437980674975" />
+      <project id="wagtail" values="DEFAULT" collectionTime="1433858318397" />
+      <project id="ncora" values="DEFAULT" collectionTime="1436436660526" />
+      <project id="comunicados" values="DEFAULT" collectionTime="0" />
+      <project id="beezer-django" values="DEFAULT" collectionTime="0" />
+      <project id="logiback_server" values="DEFAULT" collectionTime="0" />
+      <project id="underbike" values="DEFAULT" collectionTime="1435046182769" />
+      <project id="maquetador" values="DEFAULT" collectionTime="1433337179979" />
+      <project id="django-rest-auth" values="DEFAULT" collectionTime="0" />
+    </group>
+    <group name="module type">
+      <project id="logiback_server" values="PYTHON_MODULE" collectionTime="0" />
+      <project id="underbikefront" values="PYTHON_MODULE" collectionTime="0" />
+      <project id="tapioca_disqus" values="PYTHON_MODULE" collectionTime="1439293263410" />
+      <project id="gpxpy" values="PYTHON_MODULE" collectionTime="0" />
+      <project id="wagtail" values="PYTHON_MODULE" collectionTime="1433858318325" />
+      <project id="nauticadvisor" values="PYTHON_MODULE" collectionTime="1441969430983" />
+      <project id="underbike" values="PYTHON_MODULE" collectionTime="1435046182703" />
+      <project id="iberaudit" values="PYTHON_MODULE" collectionTime="0" />
+      <project id="circuitos" values="PYTHON_MODULE" collectionTime="1438347729277" />
+      <project id="comunicados" values="PYTHON_MODULE" collectionTime="1441617573270" />
+      <project id="aploy" values="PYTHON_MODULE" collectionTime="1441010579654" />
+      <project id="gestorjs" values="PYTHON_MODULE" collectionTime="1432278957553" />
+      <project id="tapioca-disqus" values="PYTHON_MODULE" collectionTime="1440509123232" />
+      <project id="cmslogi" values="PYTHON_MODULE" collectionTime="1439541230940" />
+      <project id="ncora" values="PYTHON_MODULE" collectionTime="1441789068391" />
+      <project id="loyalty" values="PYTHON_MODULE" collectionTime="1439305538939" />
+      <project id="django-extensions" values="PYTHON_MODULE" collectionTime="1434458811150" />
+      <project id="beezer-django" values="PYTHON_MODULE" collectionTime="0" />
+      <project id="maquetador" values="PYTHON_MODULE" collectionTime="1442217067676" />
+      <project id="testerxml" values="PYTHON_MODULE" collectionTime="1435919539430" />
+      <project id="python-fitparse" values="PYTHON_MODULE" collectionTime="0" />
+      <project id="puput-demo" values="PYTHON_MODULE" collectionTime="1442237147273" />
+      <project id="agregadores" values="PYTHON_MODULE" collectionTime="1438934122600" />
+      <project id="hipotels" values="PYTHON_MODULE" collectionTime="1440759581899" />
+      <project id="underbike_old" values="PYTHON_MODULE" collectionTime="0" />
+      <project id="django-rest-auth" values="PYTHON_MODULE" collectionTime="0" />
+      <project id="EileanTech" values="PYTHON_MODULE" collectionTime="1441115467055" />
+      <project id="wagtaildemo" values="PYTHON_MODULE" collectionTime="1434461677110" />
+      <project id="syntaxforscience" values="PYTHON_MODULE" collectionTime="1439305528115" />
+      <project id="regalo" values="PYTHON_MODULE" collectionTime="1438342908198" />
+    </group>
+    <group name="vcs">
+      <project id="python-fitparse" values="Git" collectionTime="0" />
+      <project id="underbikefront" values="hg4idea" collectionTime="0" />
+      <project id="puput-demo" values="Git" collectionTime="1442237147273" />
+      <project id="underbike" values="hg4idea" collectionTime="1435046182703" />
+      <project id="gpxpy" values="Git" collectionTime="0" />
+      <project id="hipotels" values="hg4idea" collectionTime="1440759581899" />
+      <project id="syntaxforscience" values="hg4idea" collectionTime="1439305528115" />
+      <project id="agregadores" values="hg4idea" collectionTime="1438934122600" />
+      <project id="nauticadvisor" values="hg4idea" collectionTime="1441969430983" />
+      <project id="wagtaildemo" values="Git" collectionTime="1434461677110" />
+      <project id="circuitos" values="hg4idea" collectionTime="1438347729277" />
+      <project id="django-extensions" values="Git" collectionTime="1434458811150" />
+      <project id="EileanTech" values="hg4idea" collectionTime="1441115467055" />
+      <project id="tapioca-disqus" values="Git" collectionTime="1440509123232" />
+      <project id="gestorjs" values="hg4idea" collectionTime="1432278957553" />
+      <project id="cmslogi" values="hg4idea" collectionTime="1439541230940" />
+      <project id="iberaudit" values="hg4idea" collectionTime="0" />
+      <project id="aploy" values="hg4idea" collectionTime="1441010579654" />
+      <project id="underbike_old" values="hg4idea" collectionTime="0" />
+      <project id="loyalty" values="hg4idea" collectionTime="1439305538939" />
+      <project id="regalo" values="hg4idea" collectionTime="1438342908198" />
+      <project id="logiback_server" values="hg4idea" collectionTime="0" />
+      <project id="beezer-django" values="Git" collectionTime="0" />
+      <project id="comunicados" values="hg4idea" collectionTime="1441617573270" />
+      <project id="testerxml" values="hg4idea" collectionTime="1435919539430" />
+      <project id="ncora" values="hg4idea,Git" collectionTime="1441789068391" />
+      <project id="maquetador" values="hg4idea" collectionTime="1442217067676" />
+      <project id="django-rest-auth" values="Git" collectionTime="0" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="underbikefront" values="PythonConfigurationType,JavascriptDebugType" collectionTime="0" />
+      <project id="hipotels" values="PythonConfigurationType" collectionTime="1440759581900" />
+      <project id="syntaxforscience" values="PythonConfigurationType,Unknown" collectionTime="1439305528115" />
+      <project id="agregadores" values="Unknown" collectionTime="1438934122600" />
+      <project id="nauticadvisor" values="PythonConfigurationType" collectionTime="1441969430983" />
+      <project id="circuitos" values="Unknown,PythonConfigurationType" collectionTime="1438347729277" />
+      <project id="EileanTech" values="PythonConfigurationType" collectionTime="1441115467055" />
+      <project id="cmslogi" values="PythonConfigurationType" collectionTime="1439541230941" />
+      <project id="iberaudit" values="Python.DjangoServer" collectionTime="0" />
+      <project id="aploy" values="Unknown" collectionTime="1441010579654" />
+      <project id="testerxml" values="Python.DjangoServer" collectionTime="1435919539430" />
+      <project id="loyalty" values="PythonConfigurationType" collectionTime="1439305538939" />
+      <project id="regalo" values="PythonConfigurationType,Unknown" collectionTime="1438342908206" />
+      <project id="wagtail" values="Python.DjangoServer" collectionTime="1433858318325" />
+      <project id="gestorjs" values="Python.DjangoServer" collectionTime="1432278957553" />
+      <project id="comunicados" values="Unknown,PythonConfigurationType" collectionTime="1441617573271" />
+      <project id="ncora" values="Unknown,PythonConfigurationType" collectionTime="1441789068391" />
+      <project id="underbike" values="Python.DjangoServer,DjangoTestsConfigurationType" collectionTime="1435046182703" />
+      <project id="maquetador" values="Unknown,PythonConfigurationType" collectionTime="1442217067676" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="underbike" values="DjangoTestsConfigurationType" collectionTime="1435046182703" />
+      <project id="agregadores" values="PythonConfigurationType" collectionTime="1438934122600" />
+      <project id="tapioca_disqus" values="PythonConfigurationType" collectionTime="1439293263410" />
+    </group>
+    <group name="file-type">
+      <project id="logiback_server" values="XML,Python,UNKNOWN,PLAIN_TEXT" collectionTime="0" />
+      <project id="underbikefront" values="PLAIN_TEXT,JSHint,JSON,JSCS,Native,C++,SourceMap,ESLint,ReST,XML,CoffeeScript,SCSS,YAML,UNKNOWN,DTD,Images,Perl,ActionScript,TypeScript,PATCH,CSS,HTML,LESS,Ini,Python,JavaScript,ARCHIVE" collectionTime="0" />
+      <project id="tapioca_disqus" values="UNKNOWN,PLAIN_TEXT,Markdown,XML,Python" collectionTime="1439293263427" />
+      <project id="gpxpy" values="UNKNOWN,XML,Python,PLAIN_TEXT" collectionTime="0" />
+      <project id="wagtail" values="UNKNOWN,XML,Python,Ini,HTML,YAML,Images,PLAIN_TEXT" collectionTime="1433858318350" />
+      <project id="nauticadvisor" values="PLAIN_TEXT,XML,HTML,YAML,UNKNOWN,Python" collectionTime="1441969431045" />
+      <project id="underbike" values="CSS,YAML,Locale,PLAIN_TEXT,Images,JavaScript,Python,SCSS,XML,Ini,JSON,UNKNOWN,SourceMap,HTML" collectionTime="1435046182720" />
+      <project id="iberaudit" values="YAML,LESS,HTML,JavaScript,ReST,UNKNOWN,Python,ARCHIVE,Native,PLAIN_TEXT,CSS,Images,Ini,JSON,XML" collectionTime="0" />
+      <project id="circuitos" values="JavaScript,PLAIN_TEXT,Markdown,Images,CSS,XML,JSON,Python,UNKNOWN,HTML" collectionTime="1438347729301" />
+      <project id="comunicados" values="Native,JSON,UNKNOWN,YAML,ReST,JavaScript,PLAIN_TEXT,Images,XML,HTML,Python,Markdown,CSS" collectionTime="1441617573464" />
+      <project id="aploy" values="PLAIN_TEXT,ReST,UNKNOWN,HTML,XML,Python" collectionTime="1441010579752" />
+      <project id="gestorjs" values="HTML,JavaScript,Less,CSS,Ini,SourceMap,Python,UNKNOWN,PLAIN_TEXT,YAML,XML,Images" collectionTime="1432278957564" />
+      <project id="tapioca-disqus" values="UNKNOWN,PLAIN_TEXT,Python,Markdown,XML" collectionTime="1440509123382" />
+      <project id="cmslogi" values="XML,UNKNOWN,JSON,ReST,Images,Python,CSS,JavaScript,PLAIN_TEXT,HTML" collectionTime="1439541231158" />
+      <project id="ncora" values="JSON,YAML,UNKNOWN,Python,HTML,XML,CSS,JavaScript,PLAIN_TEXT,Markdown" collectionTime="1441789068396" />
+      <project id="loyalty" values="Markdown,SQL,XML,Images,Python,CSS,PLAIN_TEXT,JavaScript,Native,UNKNOWN,YAML,HTML,JSON" collectionTime="1439305538952" />
+      <project id="django-extensions" values="Python,UNKNOWN,Images,Ini,PLAIN_TEXT,XML,ReST,HTML,CSS,Locale,JavaScript,YAML" collectionTime="1434458811165" />
+      <project id="beezer-django" values="UNKNOWN,ReST,CoffeeScript,Ini,CSS,JSON,Locale,PLAIN_TEXT,HTML,Python,Images,JavaScript,XML" collectionTime="0" />
+      <project id="maquetador" values="YAML,HTML,CSS,XML,JavaScript,Images,UNKNOWN,Python,PLAIN_TEXT" collectionTime="1442217067688" />
+      <project id="testerxml" values="Python,UNKNOWN,DATASOURCE_STORAGE,Less,Ini,CSS,HTML,Images,SourceMap,XML,YAML,PLAIN_TEXT,JavaScript" collectionTime="1435919539551" />
+      <project id="python-fitparse" values="PLAIN_TEXT,UNKNOWN,Python,XML,ReST" collectionTime="0" />
+      <project id="puput-demo" values="YAML,Python,ReST,UNKNOWN,PLAIN_TEXT,XML" collectionTime="1442237147308" />
+      <project id="agregadores" values="HTML,Images,XML,Native,YAML,JSON,PLAIN_TEXT,Python,CSS,JavaScript,UNKNOWN" collectionTime="1438934122613" />
+      <project id="hipotels" values="CSS,HTML,ARCHIVE,YAML,Images,UNKNOWN,JSON,XML,ReST,PLAIN_TEXT,Python,JavaScript" collectionTime="1440759582028" />
+      <project id="underbike_old" values="Ini,ARCHIVE,XML,Images,JavaScript,SQL,HTML,PLAIN_TEXT,Locale,UNKNOWN,CSS,Python" collectionTime="0" />
+      <project id="django-rest-auth" values="PLAIN_TEXT,XML,UNKNOWN,ReST,HTML,Python,YAML" collectionTime="0" />
+      <project id="EileanTech" values="PLAIN_TEXT,JavaScript,YAML,Python,XML,CSS,Images,UNKNOWN,HTML" collectionTime="1441115467058" />
+      <project id="wagtaildemo" values="SCSS,JavaScript,Python,JSON,PLAIN_TEXT,HTML,CSS,UNKNOWN,Images,XML" collectionTime="1434461677144" />
+      <project id="syntaxforscience" values="Python,CSS,JavaScript,YAML,XML,PLAIN_TEXT,UNKNOWN" collectionTime="1439305528147" />
+      <project id="regalo" values="PLAIN_TEXT,XML,CSS,Python,UNKNOWN,Images,HTML,JavaScript" collectionTime="1438342908422" />
+    </group>
+    <group name="VCS Log">
+      <project id="nauticadvisor" values="vcs.log.commit.count=25,vcs.log.hg4idea.root.count" collectionTime="1441969431045" />
+    </group>
+    <group name="jdbc-datasource">
+      <project id="hipotels" values="PostgreSQL/9.2.3" collectionTime="1438183825228" />
+      <project id="regalo" values="PostgreSQL/9.2.3" collectionTime="1437980674969" />
+    </group>
+    <group name="py-packages">
+      <project id="python-fitparse" values="six" collectionTime="0" />
+      <project id="maquetador" values="redis,ipython,configparser,wsgiref,raven,six,django-tables2,django-yubin,clint,django-appconf,django-redis,Django,django-configurations,Pillow,django-extensions,djangorestframework,django-mptt,django-braces,South,django-crispy-forms,args,psycopg2" collectionTime="1442217067735" />
+      <project id="syntaxforscience" values="psycopg2,django-appconf,ipython,requests,django-redis,django-extensions,raven,configparser,six,Django,django-braces,django-configurations,redis,clint,South,wsgiref,argparse,args" collectionTime="1439305528246" />
+      <project id="agregadores" values="django-redis,django-parsley,Impostor,Pillow,wsgiref,django-autocomplete-light,django-braces,raven,django-crispy-forms,South,args,argparse,redis,ipython,django-colorful,configparser,django-extensions,djangorestframework,django-configurations,psycopg2,django-appconf,django-tables2,django-filter,clint,django-registration,Django,django-yubin,six" collectionTime="1438934122673" />
+      <project id="nauticadvisor" values="django-braces,django_compressor,redis,psycopg2,whitenoise,django-mptt,pytz,django-yubin,Django,Pillow,ipython,flake8,drf-nested-routers,pyflakes,configparser,clint,argparse,pep8,django-grappelli,django-appconf,djangorestframework,dry-rest-permissions,raven,args,django-rest-auth,django-allauth,ipdb,django-redis,django-extensions,django-modeltranslation" collectionTime="1441969431099" />
+      <project id="wagtaildemo" values="dj-static,django-libsass,libsass,wagtail,Django,django-taggit,dj-database-url,Pillow,psycopg2,gunicorn,django-modelcluster" collectionTime="1434461677196" />
+      <project id="circuitos" values="djangorestframework-jsonp,python-mimeparse,django-braces,wsgiref,simplejson,clint,ipython,coverage,args,django-extensions,django-geoposition,django-configurations,raven,extras,django-countries,defusedxml,django-reversion,junitxml,django-filter,django-downloadview,django-redis,redis,requests,sst,psycopg2,django-appconf,mock,django-constance,testscenarios,six,django-tables2,docutils,lxml,django-crispy-forms,ipdb,djangorestframework,Pillow,python-subunit,django-bootstrap-breadcrumbs,argparse,configparser,testtools,Django" collectionTime="1438347729362" />
+      <project id="django-extensions" values="pytest,tox,python-dateutil,mock,six,shortuuid,Django" collectionTime="1434458811210" />
+      <project id="puput-demo" values="gunicorn,whitenoise,django-mailgun-redux,django-secure,puput,django-environ,pytz,gevent,django-storages-redux,boto,psycopg2" collectionTime="1442237147362" />
+      <project id="tapioca-disqus" values="tapioca-wrapper" collectionTime="1440509123427" />
+      <project id="EileanTech" values="configparser,django-redis,raven,django_compressor,redis,argparse,flake8,django-yubin,pyflakes,django-widget-tweaks,pep8,Django,django-extensions,psycopg2,wagtail,ipdb,whitenoise,args,django-appconf,clint,pytz,wagtail-simple-math-captcha,ipython" collectionTime="1441115467140" />
+      <project id="cmslogi" values="raven,django-configurations,South,django-constance,diff-match-patch,six,django-appconf,Pillow,defusedxml,unittest2,django-autocomplete-light,docutils,Django,django-reversion,django-tables2,python-mimeparse,django-ckeditor-updated,ipython,junitxml,sst,Unidecode,django-redis,django-countries,simplejson,easy-thumbnails,django-import-export,django-extensions,python-subunit,django-admin-tools,django-filter,selenium,django-guardian,Impostor,django-mptt,args,extras,django-markup,django-filer,djangorestframework,clint,ipdb,sorl-thumbnail,django-summernote,Markdown,requests,redis,MySQL-python,testtools,configparser,tablib" collectionTime="1439541231248" />
+      <project id="tapioca_disqus" values="tapioca-wrapper" collectionTime="1439293263476" />
+      <project id="testerxml" values="lxml,Django,ipdb,configparser,django-tables2,args,six,django-extensions,django-parsley,South,oauth2client,jsonfield,django.js,django-grappelli,django-easy-pjax,wsgiref,django-braces,django-downloadview,django-crispy-forms,docopt,argparse,django-admin-sortable,django-configurations,django-appconf,mock,raven,ipython,clint,django-reversion,django-compress,psycopg2,httplib2,requests" collectionTime="1435919539601" />
+      <project id="loyalty" values="django-constance,django_compressor,South,django-rest-swagger,django-filter,requests,django-mobi,argparse,pytz,clint,six,django-redis,dataset,ipdb,Pillow,XlsxWriter,raven,WeasyPrint,django-extensions,psycopg2,django-multi-email-field,django-recaptcha,args,django-cors-headers,django-rosetta,sorl-thumbnail,djangorestframework,django-configurations,configparser,ipython,yawd-admin,Django,wsgiref,django-wysiwyg-redactor,django-ckeditor-updated,blessings,django-cookie-law,django-mailviews,MySQL-python,django-crispy-forms,django-picklefield" collectionTime="1439305539010" />
+      <project id="regalo" values="django-appconf,django-extensions,psycopg2,django-graphos,redis,argparse,clint,django-grappelli,django-tables2,configparser,django-filter,raven,django-configurations,Django,Pillow,django-braces,djangorestframework,args,django-redis,ipython,django-import-export,wsgiref,requests,django-crispy-forms,six" collectionTime="1438342908522" />
+      <project id="wagtail" values="Django,args,pep8,django_compressor,psycopg2,ipython,pyflakes,configparser,django-extensions,ipdb,pytz,whitenoise,django-appconf,redis,flake8,clint,django-yubin,django-redis,raven,argparse" collectionTime="1433858318395" />
+      <project id="gestorjs" values="docutils,django-yubin,ipython,django-tables2,argparse,django-constance,django-redis,python-utils,requests,django-extensions,django-crispy-forms,django-widget-tweaks,django-braces,six,django-picklefield,django-utils2,Django,configparser,args,django-configurations,django-mptt,django-markup,Markdown,redis,djangorestframework,raven,psycopg2,South,clint,django-appconf,wsgiref" collectionTime="1432278957607" />
+      <project id="aploy" values="args,Jinja2,redis,wsgiref,args,MarkupSafe,fabtools,django-grappelli,configparser,requests,psycopg2,paramiko,django-extensions,argparse,Django,simplejson,django-guardian,clint,mimeparse,PyYAML,django-reversion,ecdsa,six,pycrypto,raven,wsgiref,django-filter,djangorestframework,django-redis,Fabric,python-dateutil,simplejson,clint" collectionTime="1441010579865" />
+      <project id="ncora" values="django-localflavor,ipython,pep8,django-disqus,django-yubin,wagtail,wagtail,ipdb,setuptools,configparser,Django,django-carton,django-redis,django-countries,django-debug-toolbar,redis,django-endless-pagination,django-extensions,django-prices,django-endless-pagination,django_compressor,whitenoise,argparse,args,django-allauth,psycopg2,flake8,tapioca-disqus,clint,pyflakes,raven,pytz,django-appconf,Django,disqus-python" collectionTime="1441789068490" />
+      <project id="logiback_server" values="psycopg2,djangorestframework,django-allauth,django-configurations,requests,clint,python3-openid,oauthlib,six,Django,raven,args,django-cors-headers,django-extensions,defusedxml,requests-oauthlib" collectionTime="0" />
+      <project id="underbike" values="Django,six,units,django-durationfield,django-reversion,mock,redis,django-redis,clint,django-rosetta,stravalib,defusedxml,django-geoposition,geopy,django-yubin,django-tagging,django-contrib-comments,django-xmlrpc,pytz,responses,isoweek,django-appconf,django-suit,args,djangorestframework-gis,requests-oauthlib,Pillow,oauthlib,django-grappelli,lxml,django-filter,django-activity-stream,django-extensions,stripe,PyYAML,bleach,raven,ipython,django-picklefield,sorl-thumbnail,django-blog-zinnia,django-configurations,lockfile,psycopg2,polyline,django-rest-auth,django-redis-cache,django-allauth,pyparsing,django-rest-swagger,python-dateutil,cryptography,requests,python3-openid,django-constance,django-mptt,djangorestframework,pyzmail,django-cors-headers,beautifulsoup4" collectionTime="1435046182767" />
+      <project id="comunicados" values="South,redis,six,django-widget-tweaks,clint,django-filter,psycopg2,Pillow,django-tables2,ipython,wsgiref,docutils,django-mptt,easy-thumbnails,Django,argparse,django-markup,django-configurations,django-modeltranslation,django-redis,django-braces,django-extensions,djangorestframework,configparser,args,django-crispy-forms,raven,django-appconf" collectionTime="1441617573547" />
+      <project id="django-rest-auth" values="six,djangorestframework,Django" collectionTime="0" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="regalo" values="org.postgresql.Driver" collectionTime="1437980674969" />
+      <project id="hipotels" values="org.postgresql.Driver" collectionTime="1438183825228" />
+      <project id="testerxml" values="org.postgresql.Driver" collectionTime="1435919539632" />
     </group>
     <group name="py-interpreter">
-      <project id="django-rest-auth" values="Python 3.4.1" />
-      <project id="logiback_server" values="Python 3.4.1" />
-      <project id="agregadores" values="Python 2.7.6" />
-      <project id="comunicados" values="Python 2.7.6" />
-      <project id="maquetador" values="Python 2.7.6" />
-      <project id="underbikefront" values="Python 3.4.1" />
-      <project id="syntaxforscience" values="Python 2.7.6" />
-      <project id="underbike" values="Python 3.4.1" />
+      <project id="python-fitparse" values="Python 3.4.1" collectionTime="0" />
+      <project id="underbikefront" values="Python 3.4.1" collectionTime="0" />
+      <project id="gpxpy" values="Python 3.4.1" collectionTime="0" />
+      <project id="hipotels" values="Python 3.4.2" collectionTime="1440759582047" />
+      <project id="syntaxforscience" values="Python 2.7.6" collectionTime="1439305528148" />
+      <project id="agregadores" values="Python 2.7.6" collectionTime="1438934122614" />
+      <project id="nauticadvisor" values="Python 3.4.2" collectionTime="1441969431045" />
+      <project id="wagtaildemo" values="Python 3.4.1" collectionTime="1434461677144" />
+      <project id="circuitos" values="Python 2.7.6" collectionTime="1438347729301" />
+      <project id="django-extensions" values="Python 3.4.1" collectionTime="1434458811165" />
+      <project id="puput-demo" values="Python 3.4.2" collectionTime="1442237147308" />
+      <project id="tapioca-disqus" values="Python 3.4.2" collectionTime="1440509123382" />
+      <project id="EileanTech" values="Python 3.4.2" collectionTime="1441115467058" />
+      <project id="cmslogi" values="Python 2.7.6" collectionTime="1439541231162" />
+      <project id="maquetador" values="Python 2.7.6" collectionTime="1442217067689" />
+      <project id="tapioca_disqus" values="Python 3.4.2" collectionTime="1439293263427" />
+      <project id="testerxml" values="Python 2.7.6" collectionTime="1435919539552" />
+      <project id="loyalty" values="Python 2.7.6" collectionTime="1439305538953" />
+      <project id="regalo" values="Python 2.7.6" collectionTime="1438342908429" />
+      <project id="wagtail" values="Python 2.7.6" collectionTime="1433858318351" />
+      <project id="gestorjs" values="Python 2.7.6" collectionTime="1432278957564" />
+      <project id="aploy" values="Python 2.7.6,Python 2.7.6" collectionTime="1441010579753" />
+      <project id="ncora" values="Python 3.4.2,Python 3.4.2" collectionTime="1441789068396" />
+      <project id="logiback_server" values="Python 3.4.1" collectionTime="0" />
+      <project id="underbike" values="Python 3.4.1" collectionTime="1435046182721" />
+      <project id="comunicados" values="Python 2.7.6" collectionTime="1441617573465" />
+      <project id="django-rest-auth" values="Python 3.4.1" collectionTime="0" />
+    </group>
+    <group name="frameworks">
+      <project id="iberaudit" values="django" collectionTime="0" />
+      <project id="comunicados" values="invalid" collectionTime="1441617573270" />
+      <project id="circuitos" values="invalid" collectionTime="1438347729277" />
+      <project id="agregadores" values="invalid" collectionTime="1438934122600" />
+      <project id="syntaxforscience" values="invalid" collectionTime="1439305528115" />
+      <project id="gestorjs" values="django" collectionTime="1432278957553" />
+      <project id="testerxml" values="django" collectionTime="1435919539430" />
+      <project id="regalo" values="invalid" collectionTime="1438342908198" />
+      <project id="wagtail" values="django" collectionTime="1433858318325" />
+      <project id="ncora" values="invalid" collectionTime="1441789068391" />
+      <project id="aploy" values="invalid" collectionTime="1441010579654" />
+      <project id="underbike" values="django" collectionTime="1435046182703" />
+      <project id="maquetador" values="invalid" collectionTime="1442217067676" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="python-fitparse" values="Project,Project" collectionTime="0" />
+      <project id="underbikefront" values="Project,Project" collectionTime="0" />
+      <project id="gpxpy" values="Project,Project" collectionTime="0" />
+      <project id="hipotels" values="Project,Project" collectionTime="1438183825230" />
+      <project id="syntaxforscience" values="Project,Project" collectionTime="1431091815523" />
+      <project id="agregadores" values="Project,Project" collectionTime="1431592418870" />
+      <project id="wagtaildemo" values="Project,Project" collectionTime="1434461677196" />
+      <project id="circuitos" values="Project,Project" collectionTime="1431529642683" />
+      <project id="django-extensions" values="Project,Project" collectionTime="1434458811210" />
+      <project id="testerxml" values="Project,Project" collectionTime="1435919539632" />
+      <project id="gestorjs" values="Project,Project" collectionTime="1432278957607" />
+      <project id="iberaudit" values="Project,Project" collectionTime="0" />
+      <project id="aploy" values="Project,Project" collectionTime="1434005649301" />
+      <project id="underbike_old" values="Project,Project" collectionTime="0" />
+      <project id="regalo" values="Project,Project" collectionTime="1437980674975" />
+      <project id="wagtail" values="Project,Project" collectionTime="1433858318397" />
+      <project id="ncora" values="Project,Project" collectionTime="1436436660526" />
+      <project id="comunicados" values="Project,Project" collectionTime="0" />
+      <project id="beezer-django" values="Project,Project" collectionTime="0" />
+      <project id="logiback_server" values="Project,Project" collectionTime="0" />
+      <project id="underbike" values="Project,Project" collectionTime="1435046182769" />
+      <project id="maquetador" values="Project,Project" collectionTime="1433337179979" />
+      <project id="django-rest-auth" values="Project,Project" collectionTime="0" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="CreateFile.CreateFileAction" count="5" />
-      <entry feature="execute.DjangoTestsConfigurationType.Coverage" count="101" />
-      <entry feature="execute.DjangoTestsConfigurationType.Debug" count="12" />
-      <entry feature="execute.DjangoTestsConfigurationType.Run" count="305" />
+      <entry feature="CreateFile.CreateFileAction" count="22" />
+      <entry feature="NewDirectoryProjectAction.Pure Python" count="1" />
+      <entry feature="OpenInBrowser.Firefox" count="1" />
+      <entry feature="execute.DjangoTestsConfigurationType.Coverage" count="105" />
+      <entry feature="execute.DjangoTestsConfigurationType.Debug" count="32" />
+      <entry feature="execute.DjangoTestsConfigurationType.Run" count="763" />
       <entry feature="execute.JavascriptDebugType.Run" count="1" />
       <entry feature="execute.Python.DjangoServer.Coverage" count="2" />
-      <entry feature="execute.Python.DjangoServer.Debug" count="136" />
-      <entry feature="execute.Python.DjangoServer.Run" count="37" />
-      <entry feature="ide.settings.Colors_&amp;_Fonts" count="1" />
+      <entry feature="execute.Python.DjangoServer.Debug" count="452" />
+      <entry feature="execute.Python.DjangoServer.Profiler" count="2" />
+      <entry feature="execute.Python.DjangoServer.Run" count="441" />
+      <entry feature="execute.PythonConfigurationType.Debug" count="108" />
+      <entry feature="execute.PythonConfigurationType.Run" count="379" />
+      <entry feature="ide.help.top" count="3" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="9" />
+      <entry feature="ide.settings.Console_Font" count="1" />
       <entry feature="ide.settings.Coverage" count="1" />
-      <entry feature="ide.settings.Django" count="2" />
-      <entry feature="ide.settings.Font" count="1" />
+      <entry feature="ide.settings.Django" count="10" />
+      <entry feature="ide.settings.Editor_Tabs" count="10" />
+      <entry feature="ide.settings.Font" count="22" />
       <entry feature="ide.settings.General" count="10" />
-      <entry feature="ide.settings.Keymap" count="21" />
-      <entry feature="ide.settings.Live_Templates" count="10" />
-      <entry feature="ide.settings.Project_Interpreter" count="6" />
-      <entry feature="ideaapp.started" count="27" />
+      <entry feature="ide.settings.Ignored_Files" count="1" />
+      <entry feature="ide.settings.Inspections" count="5" />
+      <entry feature="ide.settings.Keymap" count="23" />
+      <entry feature="ide.settings.Live_Templates" count="31" />
+      <entry feature="ide.settings.Project_Interpreter" count="23" />
+      <entry feature="ide.settings.Project_Structure" count="25" />
+      <entry feature="ide.settings.Python" count="2" />
+      <entry feature="ide.settings.Scopes" count="1" />
+      <entry feature="ideaapp.started" count="92" />
       <entry feature="tips.of.the.day.next" count="1" />
       <entry feature="uml.ShowDiagram.DjangoModelDependency" count="1" />
       <entry feature="uml.ShowDiagram.DjangoModelDependency.popup" count="4" />

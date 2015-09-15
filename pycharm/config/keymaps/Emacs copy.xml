@@ -24,6 +24,7 @@
     <keyboard-shortcut first-keystroke="alt SEMICOLON" />
     <keyboard-shortcut first-keystroke="control RIGHT" />
   </action>
+  <action id="Console.TableResult.Reload" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="control C" />
   </action>
@@ -50,12 +51,32 @@
   </action>
   <action id="EditorScrollToCenter" />
   <action id="EditorSplitLine" />
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift F3" />
+    <keyboard-shortcut first-keystroke="alt R" />
+  </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift control alt N" />
     <keyboard-shortcut first-keystroke="control O" />
   </action>
+  <action id="NextSplitter" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt RIGHT" />
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="N" />
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="O" />
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="RIGHT" />
+  </action>
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="control M" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt LEFT" />
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="P" />
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="control LEFT" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="shift alt 5" />
+    <keyboard-shortcut first-keystroke="control R" />
   </action>
   <action id="ScrollTreeToCenter" />
   <action id="SwitchApply">

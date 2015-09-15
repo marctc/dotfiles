@@ -1,36 +1,57 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>base_field</find>
-      <find>print</find>
-      <find>aining_stres</find>
-      <find>context</find>
-      <find>TrainingSer</find>
-      <find>sid</find>
-      <find>ee</find>
-      <find>proposa</find>
-      <find>StringIO</find>
-      <find>http</find>
-      <find>email</find>
-      <find>admin</find>
-      <find>suit</find>
-      <find>cors</find>
-      <find>destr</find>
-      <find>avatar</find>
-      <find>bulk_cre</find>
-      <find>bulk_create</find>
-      <find>validate_activity_athlete</find>
-      <find>ACCOUNT_FORMS</find>
-      <find>USERNAME_RE</find>
-      <find>REST_AUTH_SERIALIZERS</find>
-      <find>app_settings</find>
-      <find>SocialLoginSerializer</find>
-      <find>delete</find>
-      <find>UserPublicSerializer</find>
-      <find>initial_data</find>
+      <find>_prefetched_objects_cache</find>
+      <find>Barco</find>
+      <find>cod_bar</find>
+      <find>cat</find>
+      <find>Alerta</find>
+      <find>cod_ale</find>
+      <find>date</find>
+      <find>resource</find>
+      <find>comenta</find>
+      <find>cliente</find>
+      <find>rev</find>
+      <find>databas</find>
       <find>data</find>
-      <find>self.data</find>
-      <find>username</find>
+      <find>DATABASES</find>
+      <find>BoatT</find>
+      <find>Document</find>
+      <find>Documen</find>
+      <find>user</find>
+      <find>SubfamiliasIdiomas</find>
+      <find>nif</find>
+      <find>puer</find>
+      <find>get_site_root</find>
+      <find>_import_provider_port</find>
+      <find>USER_MODEL_USERNAME_FIELD</find>
+      <find>get_queryset</find>
+      <find>data(</find>
+      <find>get_available_name</find>
+      <find>action</find>
+      <find>end_ra</find>
+      <find>EntryPage</find>
     </findStrings>
+    <replaceStrings>
+      <replace>+ rest_hr</replace>
+      <replace>+ rest_hr</replace>
+      <replace>activity</replace>
+      <replace>reversion.VersionAdmin</replace>
+      <replace>child_ages</replace>
+      <replace>room_id</replace>
+      <replace>num_rooms</replace>
+      <replace>/api/</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/workspace/underbike/underbike_old/underbike/sapns/templates/underbike/in/laboratorio</dir>
+      <dir>$USER_HOME$/workspace/hotelbeds/testerxml/src</dir>
+      <dir>$USER_HOME$/workspace/underbike/underbike/src/fitparse</dir>
+      <dir>$USER_HOME$/workspace/python-fitparse</dir>
+      <dir>$USER_HOME$/workspace/python-fitparse/fitparse</dir>
+      <dir>$USER_HOME$/workspace/hipotels/hotengine/hotengine/booking</dir>
+      <dir>$USER_HOME$/workspace/logitravel/agregadores</dir>
+      <dir>$USER_HOME$/workspace/ncora/src/blog/static</dir>
+      <dir>$USER_HOME$/workspace/ncora/src/blog</dir>
+    </dirStrings>
   </component>
 </application>

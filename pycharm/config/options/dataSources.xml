@@ -1,0 +1,11 @@
+<application>
+  <component name="dataSourceStorage" format="xml">
+    <data-source source="LOCAL" name="canape" uuid="75812374-e5e4-4d33-b7e6-a6c7ad192426">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://canape.apsl.net:5432/hipotelsdb</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</application>
