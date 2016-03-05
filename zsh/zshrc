@@ -82,14 +82,8 @@ export PATH="/home/marc/.pyenv/shims:/home/marc/.pyenv/bin:/usr/local/sbin:/usr/
 alias update='sudo aptitude update; sudo aptitude safe-upgrade; sudo aptitude full-upgrade'
 alias install='sudo aptitude install'
 alias search='aptitude search'
-alias e='emacs23-nox'
-alias se='sudo emacs23-nox'
+alias e='emacs'
+alias se='sudo'
 
 export WORKON_HOME=~/virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
-
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
-#alias vim='sh ~/software/pycharm-4.0/bin/pycharm.sh'
