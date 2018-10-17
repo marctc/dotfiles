@@ -26,19 +26,15 @@ ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[cyan]%} ✭"
 
 repo_branch() {
     if $(hg root > /dev/null 2>&1); then
-       echo '[hg:'$(hg branch)']'
+       echo '['$(hg branch)']'
     fi
 
     if $(git branch > /dev/null 2>&1); then
-       echo 'git:'$(git branch | awk '{print $2}')
+       echo '['$(git branch | awk '{print $2}')']'
     fi
 }
 
-local repo_branch_txt='$fg[red]$(repo_branch)%{$reset_color%}'
-
-
-#PROMPT="[${repo_branch_txt}][${user_host}]:${current_dir} ${rvm_ruby} ${git_branch
+local repo_branch_txt='$fg[green]$(repo_branch)%{$reset_color%}'
 
 PROMPT="${user} ${pwd}$ "
-#RPROMPT="${return_code} ${git_branch} ${rvm}"
-RPROMPT="${return_code} ${rvm}"
+RPROMPT="${return_code} ${git_branch}"
