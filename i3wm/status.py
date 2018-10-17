@@ -10,7 +10,7 @@ status.register("clock",
 
 
 status.register("network",
-                interface="eth0",
+                interface="eno1",
                 format_up="{v4cidr}",)
 
 status.register("disk",
