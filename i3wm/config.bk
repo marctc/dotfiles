@@ -155,12 +155,9 @@ exec xbindkeys
 exec xset dpms 600
 exec setxkbmap -layout "us,es" -option "grp:alt_shift_toggle"
 
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10
-bindsym XF86AudioRaiseVolume exec --no-startup-id amixer sset Master 5%+
-bindsym XF86AudioLowerVolume exec --no-startup-id amixer sset Master 5%-
-bindsym XF86AudioMute exec --no-startup-id amixer sset Master toggle
-bindsym XF86AudioMicMute exec --no-startup-id amixer sset Capture toggle
+# TODO: brightness
+bindsym XF86MonBrightnessUp exec brightness+
+bindsym XF86MonBrightnessDown exec brightness-
 
 # autolock
 exec_always xautolock -time 15  -locker "i3lock -c 000000  && sleep 1"

@@ -53,40 +53,11 @@ setopt no_share_history
 
 # alias
 alias update='sudo aptitude update; sudo aptitude safe-upgrade; sudo aptitude full-upgrade'
-alias install='sudo aptitude install'
+alias install='sudo apti install'
 alias search='aptitude search'
-alias e='emacs25-nox'
-alias se='sudo emacs25-nox'
-
-# virtualenv
-export WORKON_HOME=~/virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
-
-
-# gcloud
-if [ -f '/home/marc/software/google-cloud-sdk/path.zsh.inc' ]; then source '/home/marc/software/google-cloud-sdk/path.zsh.inc'; fi
-if [ -f '/home/marc/software/google-cloud-sdk/completion.zsh.inc' ]; then source '/home/marc/software/google-cloud-sdk/completion.zsh.inc'; fi
-
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# kubectl
-export KUBE_EDITOR=emacs
-
-if [ $commands[kubectl] ]; then
-  source <(kubectl completion zsh)
-fi
-
-[ -f ~/fubectl.source ] &&  source ~/fubectl.source
-
-# kube-ps1
-export KUBE_PS1_SYMBOL_ENABLE=false
-export KUBE_PS1_PREFIX=[
-export KUBE_PS1_SUFFIX=]
-source ~/workspace/kube-ps1/kube-ps1.sh
-PROMPT='$(kube_ps1) '$PROMPT
+alias e='emacs'
+alias se='sudo emacs'
+alias docker compose='docker-compose'
 
 # go
 export PATH=$PATH:/usr/local/go/bin
@@ -95,3 +66,4 @@ export PATH=$PATH:$(go env GOPATH)/bin
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
